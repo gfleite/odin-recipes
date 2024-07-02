@@ -3,14 +3,34 @@
     font-family: Cambria, 'Times New Roman', serif;
 }
 
-.home-heading {
-    background-color: bisque;
-}
-
+.home-heading,
 .recipes-heading {
     background-color: bisque;
-    display: inline-block;
     padding: 12px;
 }
 
+.recipes-heading{
+    display: inline-block;
+}
 
+.home-heading{
+    text-align: center;
+}
+
+.list-container {
+    text-align: center;
+    border: 3px solid bisque;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li{
+    margin: 8px;
+}
